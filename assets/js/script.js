@@ -33,6 +33,7 @@ var timeTracker = function() {
 // call the function
 timeTracker();
 
+// save to local storage 
 $(".saveBtn").on("click", function(){
     var key = $(this).parent().attr("id");
     var value = $(this).siblings(".input").val();
